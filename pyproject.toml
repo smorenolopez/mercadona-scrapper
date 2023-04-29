@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mercadona-scrapper"
+version = "0.1.0"
+description = ""
+authors = ["smorenolopez <5792180+smorenolopez@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.9.0"
+pandas = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.17.3"
+autopep8 = "^2.0.2"
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

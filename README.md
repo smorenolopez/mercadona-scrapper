@@ -6,7 +6,7 @@ mercadona website including price, name and link to the product.
 ## Running the code
 
 In order to start the scrapper you need to enter your credentials of mercadona in
-`/conf/credentials.py` and run the main file. This will generate a csv file with
+`conf/credentials.py` and run the main file. This will generate a csv file with
 the products.
 
 ## Results 
@@ -24,23 +24,4 @@ The results will look as follows:
 
 ## Dependencies
 
-The file uses pipenv to manage the dependencies, all dependencies can be found in
-`/Pipfile`
-
-
-```
-              (
-               )
-              (
-        /\  .-"""-.  /\
-       //\\/  ,,,  \//\\
-       |/\| ,;;;;;, |/\|
-       //\\\;-"""-;///\\
-      //  \/   .   \/  \\
-     (| ,-_| \ | / |_-, |)
-       //`__\.-.-./__`\\
-      // /.-(() ())-.\ \\
-     (\ |)   '---'   (| /)
-      ` (|           |) `
-        \)           (/
-```
+The file uses poetry to manage the dependencies.
